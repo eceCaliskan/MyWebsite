@@ -1,118 +1,81 @@
 *{
-
-box-sizing: border-box; /*TO MAKE SURE THAT THE PADDING AND BORDER ARE INCLUDED IN THE TOTAL WIDTH AND HEIGHT OF THE ELEMENTS*/
-
+  box-sizing: border-box; /*TO MAKE SURE THAT THE PADDING AND BORDER ARE INCLUDED IN THE TOTAL WIDTH AND HEIGHT OF THE ELEMENTS*/
 }
 
+@media only screen and (min-width: 100px) { /*IF THE SECREEN SIZE IS MORE THAN 100*/
 
-
-@media only screen and (min-width: 100px) { 
 
 h1 {                      /*TO DESIGN H1 ELEMENT*/
-
-width: 100%;              /*TO SET THE PLACE IT WILL TAKE ON THE SCREEN TO 100%*/
-float: left;              /*MAKE THE H1 ELEMENT POSITIONED ON THE LEFT SIDE OF THE CONTAINER*/
-font-style: oblique;      /*TO MAKE THE FONT STYLE OBLIQUE*/
-font-size: 3em;           /*THE FONT SIZE 4 EM*/
-color: white;             /*TO MAKE THE H1 ELEMENT COLOR DARK BLUE*/
-margin-top: 0px;          /*TO SET THE H1 ELEMENT AND TOP OF THE PAGE SPACE TO 0PX*/
-font-weight: 800;         /*TO MAKE H1 ELEMENT BOLD*/
-text-shadow: 1px 1px 2px white, 0 0 25px Pink, 0 0 5px purple; 
-text-align: center;
+  width: 100%;              /*TO SET THE PLACE IT WILL TAKE ON THE SCREEN TO 100%*/
+  float: left;              /*MAKE THE H1 ELEMENT POSITIONED ON THE LEFT SIDE OF THE CONTAINER*/
+  font-style: oblique;      /*TO MAKE THE FONT STYLE OBLIQUE*/
+  font-size: 3em;           /*THE FONT SIZE 4 EM*/
+  color: white;             /*TO MAKE THE H1 ELEMENT COLOR DARK BLUE*/
+  margin-top: 0px;          /*TO SET THE H1 ELEMENT AND TOP OF THE PAGE SPACE TO 0PX*/
+  font-weight: 800;         /*TO MAKE H1 ELEMENT BOLD*/
+  text-shadow: 1px 1px 2px white, 0 0 25px Pink, 0 0 5px purple; 
+  text-align: center; 
 }
 
-body {                            /*TO DESIGN BODY SECTION*/
-
-background-color: black;          /*TO MAKE THE COLOR OF THE BACKGROUND BLACK*/
+body {                     /*TO DESIGN BODY SECTION*/
+  background-color: black;   /*TO MAKE THE COLOR OF THE BACKGROUND BLACK*/
 }
-
 
 .button {                     /*TO DESIGN BUTTON CLASS*/
-
-width: 100%;                   /*SETTING THE WIDTH 85% FOR THE SECREEN*/
-
-float: left;                  /*TO MAKE THE TEXTS ON THE LEFT SIDE OF THE CONTAINER*/
-
-position: relative;           /*TO POSITIONE ELEMENT TO ITS NORMAL POSITION*/
-
-right: 0px;
-
+  width: 100%;                  /*SETTING THE WIDTH 85% FOR THE SECREEN*/
+  float: left;                  /*TO MAKE THE TEXTS ON THE LEFT SIDE OF THE CONTAINER*/
+  position: relative;           /*TO POSITIONE ELEMENT TO ITS NORMAL POSITION*/
+  right: 0px;
 }
-
 
 a:link, a:visited  {        /*TO DESIGN A ELEMENTS IN THE WEBSITE*/
-
-background-color: black;  /*TO SET BACKGROUND COLOR TONE OF BLUE*/
-color: white;               /*TO SET THE FONT COLOR*/
-padding: 10px 10px;         /*TO SET THE PADDING FOR BUTTONS*/
-text-align: center;         /*TO PUT THE TEXT TO THE CENTRE OF THE BUTTON (30PX 40PX)*/
-text-decoration: none;      /*BECAUSE THEY ARE LINK TO OTHER WEBSITES NOT USING ANY TEXT DECORATION LIKE UNDERLINE*/
-font-weight: bold;          /*TO MAKE THE FONT BOLD*/
-margin-top: 0px;
-display: block;            /*TO PUT THE BOZ TO THE MIDDLE OF THE PAGE*/
-margin-left: auto; 
-margin-right: auto;
+  background-color: black;    /*TO SET BACKGROUND COLOR TONE OF BLUE*/
+  color: white;               /*TO SET THE FONT COLOR*/
+  padding: 10px 10px;         /*TO SET THE PADDING FOR BUTTONS*/
+  text-align: center;         /*TO PUT THE TEXT TO THE CENTRE OF THE BUTTON (30PX 40PX)*/
+  text-decoration: none;      /*BECAUSE THEY ARE LINK TO OTHER WEBSITES NOT USING ANY TEXT DECORATION LIKE UNDERLINE*/
+  font-weight: bold;          /*TO MAKE THE FONT BOLD*/
+  margin-top: 0px;
+  display: block;             /*TO PUT THE BOZ TO THE MIDDLE OF THE PAGE*/
+  margin-left: auto; 
+  margin-right: auto;
 }
 
-
 a:hover, a:active {         /*TO DESIGN A ELEMENTS WHEN MOUSE-OVER*/
-
-background-color: darkred;  /*TO MAKE BACKGROUND COLOR DARKER BLUE THAN PREVIOUS COLOR*/
-color: black;
+  background-color: darkred;  /*TO MAKE BACKGROUND COLOR DARKER BLUE THAN PREVIOUS COLOR*/
+  color: black;
 } 
 
-
-
 footer {
-
-width: 85%;         /*SETTING THE WIDTH 85% FOR THE SECREEN*/
-color: white;     /*TO SET THE FONT COLOR TO TONE OF THE BLUE*/
-font-size: 1em;     /*TO SET THE FONT SIZE TO 2EM*/
-margin-top: 20px;   /*THE SPACE BETWEEN THE BUTTONS AND THE TEXT*/
-font-weight: bold;  /*TO MAKE THE TEXT BOLD*/
-position: relative;   /*TO POSITIONE ELEMENT TO ITS NORMAL POSITION*/
+  width: 85%;         /*SETTING THE WIDTH 85% FOR THE SECREEN*/
+  color: white;       /*TO SET THE FONT COLOR TO TONE OF THE BLUE*/
+  font-size: 1em;     /*TO SET THE FONT SIZE TO 2EM*/
+  margin-top: 20px;   /*THE SPACE BETWEEN THE BUTTONS AND THE TEXT*/
+  font-weight: bold;  /*TO MAKE THE TEXT BOLD*/
+  position: relative; /*TO POSITIONE ELEMENT TO ITS NORMAL POSITION*/
 }
 
 .main {               /*TO DESIGN DIV CLASS CALLED MAIN*/
-position:relative;
-    display: inline-block;
-
-    width:100%;
-    height:250px;
-    margin-top:20px;
-
-   
-
-    text-align:center;
-
+  position:relative;    /*TO POSITIONE ELEMENT TO ITS NORMAL POSITION*/
+  display: inline-block;
+  width:100%;
+  height:250px;
+  margin-top:20px;      /*THE SPACE BETWEEN THE TOP AND THE MAIN PART*/
+  text-align:center;    /*TO PUT THE TEXT TO THE CENTER OF THE WEBSITE*/
 }
 
 
-
-
-img {
-
-border: 3px solid darkred;
-text-align: center;  /*TO MAKE THE TEXT POSITIONE ON THE CENTER */
-
-
-Background: white;
-
-padding: 6px;
-
-Margin-left: relative;
-display: inline;            /*TO PUT THE BOZ TO THE MIDDLE OF THE PAGE*/
-
-    height: 250px;
-    width: 200px;
-    margin-left:-4px; /* trick for remove the space beetwen */
-
-
-
-
+img {                       /*Design of the images*/
+  border: 3px solid darkred;  /*Setting the border element*/
+  text-align: center;         /*TO MAKE THE TEXT POSITIONE ON THE CENTER */
+  background: white;          /*SETTING THE BACKGROUND OF THE PADDING*/
+  padding: 6px;               /*SETTING THE SIZE OF THE PADDING*/
+  margin-left: relative;
+  display: inline;            /*TO PUT THE BOZ TO THE MIDDLE OF THE PAGE*/
+  height: 250px;       
+  width: 200px;
+  margin-left:-4px;           /* trick for remove the space beetwen */
 }
-
-
 
 .Image{
   padding: 100px;
@@ -123,110 +86,75 @@ display: inline;            /*TO PUT THE BOZ TO THE MIDDLE OF THE PAGE*/
   margin: 0 auto;
 }
 
-.image:hover {
-  -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
+.image:hover {                    /*TO MAKE THE EFFECT TO THE IMAGES WHEN HOVER OVER */
+  -ms-transform: scale(1.5);      /* IE 9 */
+  -webkit-transform: scale(1.5);  /* Safari 3-8 */
   transform: scale(1.5); 
 }
 
 .top-left {
-
-
-}
-P{
-Margin-top: 40px;
-Width: 80%;
-Color: white;
-Font-size: 20px;
-Text-align: center;
-Display: block;
-Margin-left: auto;
-Margin-right: auto;
 }
 
+p{                    /*DESIGNING THE PHARAGRAPH ELEMENT*/
+  margin-top: 40px;   /*PIXEL BETWEEN THE TOP AND THE P ELEMENT*/
+  width: 80%;          
+  color: white;       /*COLOR PF THE TEXT*/
+  font-size: 20px;    /*SIZE OF THE TEXT*/
+  text-align: center; /*TO PUT THE TEXT TO THE CENTER*/
+  display: block;     
+  margin-left: auto; 
+  margin-right: auto;
+}
 
-@media only screen and (min-width: 600px) { /*IF THE SECREEN SIZE IS MORE THAN 768*/
+
+@media only screen and (min-width: 600px) {      /*IF THE SECREEN SIZE IS MORE THAN 600*/
 
 
 h1 {                          /*TO DESIGN H1 ELEMENT*/
-
-text-align: center;           /*TO MAKE THE TEXT POSITIONE ON THE CENTER */
-font-size: 7em;               /*TO SET THE H1 ELEMENT FONT SIZE 7EM*/
-font-weight: 900;             /*TO MAKE H1 ELEMENT BOLD*/
-text-shadow: 1px 1px 2px white, 0 0 25px red, 0 0 5px darkred;
-
+  text-align: center;           /*TO MAKE THE TEXT POSITIONE ON THE CENTER */
+  font-size: 7em;               /*TO SET THE H1 ELEMENT FONT SIZE 7EM*/
+  font-weight: 900;             /*TO MAKE H1 ELEMENT BOLD*/
+  text-shadow: 1px 1px 2px white, 0 0 25px red, 0 0 5px darkred; /*SETTING THE GLOW OF THE HEADING*/
 }
 
 .main {               /*TO DESIGN DIV CLASS CALLED MAIN*/
-position:relative;
-    display: inline-block;
-
-    width:100%;
-    height:250px;
-    margin-top:20px;
-
-   
-
-    text-align:center;
-
+  position:relative;
+  display: inline-block;
+  width:100%;
+  height:250px;
+  margin-top:20px;
+  text-align:center;
 }
-
-
-
 
 img {
-
-border: 3px solid darkred;
-text-align: center;  /*TO MAKE THE TEXT POSITIONE ON THE CENTER */
-
-
-Background: white;
-
-padding: 6px;
-
-Margin-left: relative;
-display: inline;            /*TO PUT THE BOZ TO THE MIDDLE OF THE PAGE*/
-
-    height: 300px;
-    width: 250px;
-    margin-left:-4px; /* trick for remove the space beetwen */
-
-
-
-
+  border: 3px solid darkred;
+  text-align: center;  /*TO MAKE THE TEXT POSITIONE ON THE CENTER */
+  background: white;
+  padding: 6px;
+  margin-left: relative;
+  display: inline;            /*TO PUT THE BOZ TO THE MIDDLE OF THE PAGE*/
+  height: 300px;
+  width: 250px;
+  margin-left:-4px; /* trick for remove the space beetwen */
 }
-
-
 
 footer {
-
-width: 85%;         /*SETTING THE WIDTH 85% FOR THE SECREEN*/
-color: white;     /*TO SET THE FONT COLOR TO TONE OF THE BLUE*/
-font-size: 1em;     /*TO SET THE FONT SIZE TO 2EM*/
-margin-top: 20px;   /*THE SPACE BETWEEN THE BUTTONS AND THE TEXT*/
-font-weight: bold;  /*TO MAKE THE TEXT BOLD*/
-position: relative;   /*TO POSITIONE ELEMENT TO ITS NORMAL POSITION*/
-Text-align: centre;
-
+  width: 85%;         /*SETTING THE WIDTH 85% FOR THE SECREEN*/
+  color: white;     /*TO SET THE FONT COLOR TO TONE OF THE BLUE*/
+  font-size: 1em;     /*TO SET THE FONT SIZE TO 2EM*/
+  margin-top: 20px;   /*THE SPACE BETWEEN THE BUTTONS AND THE TEXT*/
+  font-weight: bold;  /*TO MAKE THE TEXT BOLD*/
+  position: relative;   /*TO POSITIONE ELEMENT TO ITS NORMAL POSITION*/
+  text-align: centre;
 }
-
 
 .button  {            /*TO DESIGN DIV CLASS BUTTONS POSITION*/
-
-width: 100%;           /*TO SET THE WIDTH OF THE BUTTON TO %25 SO IT WILL FIT 25% OF THE SCREEN*/
-
-float: left;          /*TO PLACE THE BUTTON ON THE LEFT SIDE OF ITS CONTAINER*/
-
-position: relative;   /*TO PUT ALL THE BUTTONS NEXT TO EACHOTHER*/
-
+  width: 100%;           /*TO SET THE WIDTH OF THE BUTTON TO %25 SO IT WILL FIT 25% OF THE SCREEN*/
+  float: left;          /*TO PLACE THE BUTTON ON THE LEFT SIDE OF ITS CONTAINER*/
+  position: relative;   /*TO PUT ALL THE BUTTONS NEXT TO EACHOTHER*/
 }
 
-
-
-
-
-
-.Image{
+.Image{                    /*TO DESIGN THE ELEMENTS OF THE IMAGE CLASS*/
   padding: 100px;
   background-color: green;
   transition: transform .2s;
@@ -235,141 +163,70 @@ position: relative;   /*TO PUT ALL THE BUTTONS NEXT TO EACHOTHER*/
   margin: 0 auto;
 }
 
-.image:hover {
-  -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
+.image:hover {                    /*TO MAKE THE EFFECT TO THE IMAGES WHEN HOVER OVER *
+  -ms-transform: scale(1.5);      /* IE 9 */
+  -webkit-transform: scale(1.5);  /* Safari 3-8 */
   transform: scale(1.5); 
 }
 
 .top-left {
-
-
+}
 }
 
 
+@media only screen and (min-width: 1200px) { /*IF THE SECREEN SIZE IS MORE THAN 1200px*/
 
-
+    
+h1 {                   /*TO DESIGN H1 ELEMENT*/
+  text-align: center;  /*TO MAKE THE TEXT POSITIONE ON THE CENTER */
+  font-size: 7em;      /*TO SET THE H1 ELEMENT FONT SIZE 7EM*/
+  font-weight: 900;    /*TO MAKE H1 ELEMENT BOLD*/
+  text-shadow: 1px 1px 2px white, 0 0 25px red, 0 0 5px darkred;
 }
 
-@media only screen and (min-width: 1200px) { /*IF THE SECREEN SIZE IS MORE THAN 1000px*/
-
-
-
-h1 {                  /*TO DESIGN H1 ELEMENT*/
-
-text-align: center;  /*TO MAKE THE TEXT POSITIONE ON THE CENTER */
-
-font-size: 7em;       /*TO SET THE H1 ELEMENT FONT SIZE 7EM*/
-
-font-weight: 900;    /*TO MAKE H1 ELEMENT BOLD*/
-
-text-shadow: 1px 1px 2px white, 0 0 25px red, 0 0 5px darkred;
-
-}
-
-
-
-.main {             /*TO DESIGN THE DIV CLASS CALLED MAIN*/
-
-width: 100%;           /*THE SPACE IT WILL TAKE ON THE BROWSER WINDOW*/
-
-float: left;          /*MAKE THE MAIN TEXT POSITIONED ON THE RIGHT SIDE OF THE CONTAINER*/
-
-Color: black;         /*TO CHANGE THE TEXT COLOR TO BLACK*/
-
-text-align: center;  /*TO MAKE THE TEXT POSITIONE ON THE CENTER */
-
-position:relative;
-
- 
-.main {             /*TO DESIGN THE DIV CLASS CALLED MAIN*/
-
-width: 100%;           /*THE SPACE IT WILL TAKE ON THE BROWSER WINDOW*/
-
-float: left;          /*MAKE THE MAIN TEXT POSITIONED ON THE RIGHT SIDE OF THE CONTAINER*/
-
-Color: black;         /*TO CHANGE THE TEXT COLOR TO BLACK*/
-
-text-align: center;  /*TO MAKE THE TEXT POSITIONE ON THE CENTER */
-
-
-
+.main {                /*TO DESIGN THE DIV CLASS CALLED MAIN*/
+  width: 100%;         /*THE SPACE IT WILL TAKE ON THE BROWSER WINDOW*/
+  float: left;         /*MAKE THE MAIN TEXT POSITIONED ON THE RIGHT SIDE OF THE CONTAINER*/
+  color: black;        /*TO CHANGE THE TEXT COLOR TO BLACK*/
+  text-align: center;  /*TO MAKE THE TEXT POSITIONE ON THE CENTER */
+  position:relative;
 }
    
-
-   
-
-
-
-}
-
-
-.button  {            /*TO DESIGN DIV CLASS BUTTONS POSITION*/
-
-width: 15%;           /*TO SET THE WIDTH OF THE BUTTON TO %25 SO IT WILL FIT 25% OF THE
-SCREEN*/
-
-padding: 30px 30px;
-
-float: right;          /*TO PLACE THE BUTTON ON THE LEFT SIDE OF ITS CONTAINER*/
-
-padding: 20px 10px;         /*TO SET THE PADDING FOR BUTTONS*/
-
-position: relative;   /*TO PUT ALL THE BUTTONS NEXT TO EACHOTHER*/
-
+.button  {             /*TO DESIGN DIV CLASS BUTTONS POSITION*/
+  width: 15%;          /*TO SET THE WIDTH OF THE BUTTON TO %25 SO IT WILL FIT 25% OF THE SCREEN*/
+  padding: 30px 30px;
+  float: right;        /*TO PLACE THE BUTTON ON THE LEFT SIDE OF ITS CONTAINER*/
+  padding: 20px 10px;         /*TO SET THE PADDING FOR BUTTONS*/
+  position: relative;  /*TO PUT ALL THE BUTTONS NEXT TO EACHOTHER*/
 }
 
 .li{
-
-Background: white;
+  background: white;
 }
-
 
 footer {
-
-width: 55%;         /*SETTING THE WIDTH 85% FOR THE SECREEN*/
-
-color: white;     /*TO SET THE FONT COLOR TO TONE OF THE BLUE*/
-
-font-size: 1em;     /*TO SET THE FONT SIZE TO 2EM*/
-
-margin-top: 900px;   /*THE SPACE BETWEEN THE BUTTONS AND THE TEXT*/
-
-Margin-left: 400px;
-
-font-weight: bold;  /*TO MAKE THE TEXT BOLD*/
-
+  width: 55%;         /*SETTING THE WIDTH 85% FOR THE SECREEN*/
+  color: white;       /*TO SET THE FONT COLOR TO TONE OF THE BLUE*/
+  font-size: 1em;     /*TO SET THE FONT SIZE TO 2EM*/
+  margin-top: 900px;  /*THE SPACE BETWEEN THE BUTTONS AND THE TEXT*/
+  margin-left: 400px;
+  font-weight: bold;  /*TO MAKE THE TEXT BOLD*/
 }
-
 
 img {
-
-border: 4px solid darkred;
-
-border-radius: 10px;
-
-Background: white;
-
-padding: 6px;
-
-width: 290px;
-
-
-
-
-
-
-display: inline-block;            /*TO PUT THE BOZ TO THE MIDDLE OF THE PAGE*/
-
-    height: 300px;
-  Width: 300px;
-    margin-left: auto; /* trick for remove the space beetwen */
- Margin-right: auto;
-
-
+  border: 4px solid darkred;
+  border-radius: 10px;
+  background: white;
+  padding: 6px;
+  width: 290px;
+  display: inline-block;      /*TO PUT THE BOX TO THE MIDDLE OF THE PAGE*/
+  height: 300px;
+  width: 300px;
+  margin-left: auto;          /* trick for remove the space beetwen */
+  margin-right: auto;
 }
 
-.Image{
+.Image{                       /*TO DESIGN THE ELEMENTS OF THE IMAGE CLASS*/
   padding: 100px;
   background-color: green;
   transition: transform .2s;
@@ -388,36 +245,26 @@ display: inline-block;            /*TO PUT THE BOZ TO THE MIDDLE OF THE PAGE*/
 
 
 }
-
-.image2{
-Width: 20%;
-border: 0px solid black;
-Float: left;
-Margin-left: 180px;
-Background: black;
-height: 500px;
+ 
+.image2{                      /*DESIGN OF THE IMAGE2 CLASS*/
+  width: 20%;
+  border: 0px solid black;
+  float: left;
+  margin-left: 180px;
+  background: black;
+  height: 500px;
   Width: 300px;
 }
 
-P{
-Margin-top: 60px;
-Width: 80%;
-Color: white;
-Font-size: 20px;
-}
-
-.script{
-Margin-left:0px;
-}
-
-.link{
-Margin-left:0px;
-
+p{                           /*DESIGN OF THE PRAGHRAPH TAG*/
+  margin-top: 60px;
+  width: 80%;
+  color: white;
+  font-size: 20px;
 }
 
 mark{
-Color: darkred;
+  color: darkred;
 }
-
 }
 
