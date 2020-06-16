@@ -123,7 +123,7 @@ h1 {                             /*TO DESIGN H1 ELEMENT*/
     display: inline-block;      /*TO DISPLAY IMAGES NEXT TO EACH OTHER*/
     width:100%;
     height:250px;
-    margin-top:20px;
+    margin-top:10px;
     text-align:center;          /*TO MAKE THE TEXT POSITION ON THE CENTER */
 }
 
@@ -190,6 +190,7 @@ h1 {                      /*TO DESIGN H1 ELEMENT*/
     color: black;         /*TO CHANGE THE TEXT COLOR TO BLACK*/
     text-align: center;   /*TO MAKE THE TEXT POSITIONE ON THE CENTER */
     position:relative;
+Margin-top:0px;
 }
    
 .button  {            /*TO DESIGN DIV CLASS BUTTONS POSITION*/
@@ -209,7 +210,7 @@ footer {
     width: 55%;         /*SETTING THE WIDTH 85% FOR THE SECREEN*/
     color: white;       /*TO SET THE FONT COLOR TO TONE OF THE BLUE*/
     font-size: 1em;     /*TO SET THE FONT SIZE TO 2EM*/
-    margin-top: 1000px;  /*THE SPACE BETWEEN THE BUTTONS AND THE TEXT*/
+    margin-top: 1000px;;  /*THE SPACE BETWEEN THE BUTTONS AND THE TEXT*/
     margin-left: 400px;
     font-weight: bold;  /*TO MAKE THE TEXT BOLD*/
 }
@@ -225,6 +226,7 @@ img {
     width: 300px;
     margin-left: auto; 
     margin-right: auto;
+
 }
 
 .Image{
@@ -234,6 +236,7 @@ img {
     width: 200px;             /*THE WIDTH OF THE IMAGES*/
     height: 900px;            /*THE HEIGHT OF THE IMAGES*/
     margin: 0 auto;
+
 }
 
 .image:hover {                   /*WHEN USER HOVERS OVER THE IMAGE*/
@@ -250,6 +253,7 @@ img {
     background: black;      /*SETTING THE BACKGROUND ELEMENT*/
     height: 500px;          /*SETTING THE HEIGHT*/
     width: 300px;           /*SETTING THE WIDTH*/
+
 }
 
 p{                     /*DESIGNING THE P ELEMENT*/
@@ -268,4 +272,3 @@ mark{
     color: darkred;
 }
 }
-
