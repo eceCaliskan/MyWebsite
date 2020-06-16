@@ -3,7 +3,7 @@
 box-sizing: border-box; /*TO MAKE SURE THAT THE PADDING AND BORDER ARE INCLUDED IN THE TOTAL WIDTH AND HEIGHT OF THE ELEMENTS*/
 
 }
-\@media only screen and (min-width: 100px) { 
+@media only screen and (min-width: 100px) { 
 
 h1 {                      /*TO DESIGN H1 ELEMENT*/
     width: 100%;              /*TO SET THE PLACE IT WILL TAKE ON THE SCREEN TO 100%*/
