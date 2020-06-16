@@ -106,7 +106,7 @@ p{                        /*THE DESIGN OF THE P ELEMENT*/
     margin-left: auto;
     margin-right: auto;
 }
-
+}
 
 @media only screen and (min-width: 600px) {     /*IF THE SECREEN SIZE IS MORE THAN 600*/
 
