@@ -29,7 +29,7 @@ body {                     /*TO DESIGN BODY SECTION*/
 }
 
 a:link, a:visited  {        /*TO DESIGN A ELEMENTS IN THE WEBSITE*/
-  background-color: grey;    /*TO SET BACKGROUND COLOR TONE OF GREY*/
+  background-color: darkgrey;    /*TO SET BACKGROUND COLOR TONE OF GREY*/
   color: white;               /*TO SET THE FONT COLOR*/
   padding: 10px 10px;         /*TO SET THE PADDING FOR BUTTONS*/
   text-align: center;         /*TO PUT THE TEXT TO THE CENTRE OF THE BUTTON (30PX 40PX)*/
