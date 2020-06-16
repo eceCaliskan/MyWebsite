@@ -78,18 +78,18 @@ img {
 }
 
 .Image{                      /*DESIGN OF THE IMAGE CLASS*/
-  padding: 100px;            /*SETTING THE PADDING ELEMENT*/
-  background-color: green;
-  transition: transform .2s; /*ADDING SOME TRANSACTIONS*/
-  width: 200px;              /*THE WIDTH OF THE IMAGES*/
-  height: 900px;             /*THE HEIGHT OF THE IMAGES*/
-  margin: 0 auto;
+    padding: 100px;            /*SETTING THE PADDING ELEMENT*/
+    background-color: green;
+    transition: transform .2s; /*ADDING SOME TRANSACTIONS*/
+    width: 200px;              /*THE WIDTH OF THE IMAGES*/
+    height: 900px;             /*THE HEIGHT OF THE IMAGES*/
+    margin: 0 auto;
 }
 
 .image:hover {                   /*WHEN USER HOVERS OVER THE IMAGE*/
-  -ms-transform: scale(1.5);     /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
-  transform: scale(1.5); 
+    -ms-transform: scale(1.5);     /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
 }
 
 .top-left {
@@ -158,18 +158,18 @@ footer {
 }
 
 .Image{
-  padding: 100px;          /*SETTING THE PADDING ELEMENT*/
-  background-color: green;
-  transition: transform .2s;/*ADDING SOME TRANSACTIONS*/
-  width: 200px;             /*THE WIDTH OF THE IMAGES*/
-  height: 900px;            /*THE HEIGHT OF THE IMAGES*/
-  margin: 0 auto;
+    padding: 100px;          /*SETTING THE PADDING ELEMENT*/
+    background-color: green;
+    transition: transform .2s;/*ADDING SOME TRANSACTIONS*/
+    width: 200px;             /*THE WIDTH OF THE IMAGES*/
+    height: 900px;            /*THE HEIGHT OF THE IMAGES*/
+    margin: 0 auto;
 }
 
 .image:hover {                   /*WHEN USER HOVERS OVER THE IMAGE*/
-  -ms-transform: scale(1.5);     /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
-  transform: scale(1.5); 
+    -ms-transform: scale(1.5);     /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
 }
 }
 
@@ -228,18 +228,18 @@ img {
 }
 
 .Image{
-  padding: 100px;           /*SETTING THE PADDING ELEMENT*/
-  background-color: green;
-  transition: transform .2s;/*ADDING SOME TRANSACTIONS*/
-  width: 200px;             /*THE WIDTH OF THE IMAGES*/
-  height: 900px;            /*THE HEIGHT OF THE IMAGES*/
-  margin: 0 auto;
+    padding: 100px;           /*SETTING THE PADDING ELEMENT*/
+    background-color: green;
+    transition: transform .2s;/*ADDING SOME TRANSACTIONS*/
+    width: 200px;             /*THE WIDTH OF THE IMAGES*/
+    height: 900px;            /*THE HEIGHT OF THE IMAGES*/
+    margin: 0 auto;
 }
 
 .image:hover {                   /*WHEN USER HOVERS OVER THE IMAGE*/
-  -ms-transform: scale(1.5);     /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
-  transform: scale(1.5); 
+    -ms-transform: scale(1.5);     /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
 }
 
 .image2{                    /*DESIGNING THE CLASS IMAGE2*/
