@@ -29,7 +29,7 @@ body {                     /*TO DESIGN BODY SECTION*/
 }
 
 a:link, a:visited  {        /*TO DESIGN A ELEMENTS IN THE WEBSITE*/
-  background-color: darkgrey;    /*TO SET BACKGROUND COLOR TONE OF GREY*/
+  background-color: black;    /*TO SET BACKGROUND COLOR TONE OF GREY*/
   color: white;               /*TO SET THE FONT COLOR*/
   padding: 10px 10px;         /*TO SET THE PADDING FOR BUTTONS*/
   text-align: center;         /*TO PUT THE TEXT TO THE CENTRE OF THE BUTTON (30PX 40PX)*/
@@ -39,6 +39,7 @@ a:link, a:visited  {        /*TO DESIGN A ELEMENTS IN THE WEBSITE*/
   display: block;             /*TO PUT THE BOZ TO THE MIDDLE OF THE PAGE*/
   margin-left: auto; 
   margin-right: auto;
+  border: 3px solid darkred;
 }
 
 a:hover, a:active {         /*TO DESIGN A ELEMENTS WHEN MOUSE-OVER*/
