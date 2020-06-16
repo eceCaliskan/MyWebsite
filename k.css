@@ -209,7 +209,7 @@ footer {
     width: 55%;         /*SETTING THE WIDTH 85% FOR THE SECREEN*/
     color: white;       /*TO SET THE FONT COLOR TO TONE OF THE BLUE*/
     font-size: 1em;     /*TO SET THE FONT SIZE TO 2EM*/
-    margin-top: 900px;  /*THE SPACE BETWEEN THE BUTTONS AND THE TEXT*/
+    margin-top: 1000px;  /*THE SPACE BETWEEN THE BUTTONS AND THE TEXT*/
     margin-left: 400px;
     font-weight: bold;  /*TO MAKE THE TEXT BOLD*/
 }
