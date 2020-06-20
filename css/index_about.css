@@ -190,7 +190,7 @@ h1 {                      /*TO DESIGN H1 ELEMENT*/
     color: black;         /*TO CHANGE THE TEXT COLOR TO BLACK*/
     text-align: center;   /*TO MAKE THE TEXT POSITIONE ON THE CENTER */
     position:relative;
-    margin-top:0px;
+    margin-top:20px;
 }
    
 .button  {            /*TO DESIGN DIV CLASS BUTTONS POSITION*/
