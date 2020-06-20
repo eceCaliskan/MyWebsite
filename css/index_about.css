@@ -1,13 +1,8 @@
 *{
 
 box-sizing: border-box; /*TO MAKE SURE THAT THE PADDING AND BORDER ARE INCLUDED IN THE TOTAL WIDTH AND HEIGHT OF THE ELEMENTS*/
-
-
-  padding: 0;
-  margin: 0;
-
-
 }
+
 @media only screen and (min-width: 100px) { 
 
 h1 {                      /*TO DESIGN H1 ELEMENT*/
@@ -56,7 +51,7 @@ footer {                /*TO DESIGN FOTTER ELEMENT*/
     width: 85%;         /*SETTING THE WIDTH 85% FOR THE SECREEN*/
     color: white;       /*TO SET THE FONT COLOR TO TONE OF THE BLUE*/
     font-size: 1em;     /*TO SET THE FONT SIZE TO 2EM*/
-    margin-top: 20px;   /*THE SPACE BETWEEN THE BUTTONS AND THE TEXT*/
+    margin-top: 0px;   /*THE SPACE BETWEEN THE BUTTONS AND THE TEXT*/
     font-weight: bold;  /*TO MAKE THE TEXT BOLD*/
     position: relative; /*TO POSITIONE ELEMENT TO ITS NORMAL POSITION*/
 }
@@ -195,7 +190,7 @@ h1 {                      /*TO DESIGN H1 ELEMENT*/
     color: black;         /*TO CHANGE THE TEXT COLOR TO BLACK*/
     text-align: center;   /*TO MAKE THE TEXT POSITIONE ON THE CENTER */
     position:relative;
-Margin-top:0px;
+    margin-top:0px;
 }
    
 .button  {            /*TO DESIGN DIV CLASS BUTTONS POSITION*/
@@ -277,9 +272,4 @@ p{                     /*DESIGNING THE P ELEMENT*/
 mark{
     color: darkred;
 }
-
-
-
-
-
 }
